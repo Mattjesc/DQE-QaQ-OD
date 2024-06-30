@@ -1,0 +1,9 @@
+qai-hub
+onnx
+onnxruntime
+transformers
+torch
+numpy
+Pillow
+matplotlib
+jupyter
