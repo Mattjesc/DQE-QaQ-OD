@@ -1,6 +1,5 @@
 ### README.md
 
-```markdown
 # Double Quantization Experiment: Quantizing a Quantized Model for On-Device Deployment (DQE-QaQ-OD)
 
 ## Overview
@@ -152,7 +151,7 @@ graph TD
 Results may vary depending on internet speed, system specifications, and other factors. Cloud provisioning and model loading times can differ across systems. Additionally, prolonged usage of the models running locally can heat up the phone quickly and may lead to system crashes. Note that these results are based on a cloud-provisioned Galaxy S24 Ultra, and I do not have physical access to the device, so actual results may vary.
 
 ### Performance Metrics
-Here are the tested performance metrics for the Phi-3-mini-128k-instruct-onnx model on the Galaxy S24 Ultra, considering its hardware specifications and the use of Qualcomm AI Engine, GPU, and CPU.
+Here are the tested performance metrics for the Phi-3-mini-128k-instruct-onnx model on the Cloud Provisionned Galaxy S24 Ultra, considering its hardware specifications and the use of Qualcomm AI Engine, GPU, and CPU.
 
 | Metric                     | Initial Quantization | Second Quantization | With Hardware Acceleration |
 |----------------------------|----------------------|---------------------|----------------------------|
