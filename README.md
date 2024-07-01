@@ -17,18 +17,7 @@ DQE-QaQ-OD/
 ## Workflow
 The workflow for this project is illustrated below:
 
-```mermaid
-graph TD
-    A[Start] --> B[Environment Setup]
-    B --> C[Load Model]
-    C --> D[Initial Quantization]
-    D --> E[Neural Network Graph Capture]
-    E --> F[On-Device Compilation]
-    F --> G[Hardware Acceleration]
-    G --> H[Second Round of Quantization]
-    H --> I[Evaluation and Comparison]
-    I --> J[End]
-```
+![a328729b-8907-4876-989b-c7d9de448b04](https://github.com/Mattjesc/DQE-QaQ-OD/assets/147006999/08d1a48f-11e1-4fce-83dc-be2698d971e5)
 
 ## Environment Setup
 We use Conda for managing the environment and dependencies. Conda provides comprehensive package management and environment isolation capabilities, allowing us to manage dependencies and avoid conflicts efficiently. However, feel free to use any environment management tool that you are comfortable with, such as virtualenv, pipenv, or others.
